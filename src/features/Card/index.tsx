@@ -25,10 +25,12 @@ const CardContent: React.FC<CardContentProps> = ({ type }) => {
     [cls.card_abridged]: type === 'abridged',
   };
 
+  console.log(isCardProps(cardData));
+
   return (
     <>
       <div className={clsx(cls.card, mods)}>
-        {isCardProps(cardData) ? (
+        {isCardProps(cardData) && type === 'normal' ? (
           <div className={cls.card_head}>
             <div className={cls.card_breadcrumbs}>
               <span>{cardData.showcase}</span>
@@ -43,7 +45,7 @@ const CardContent: React.FC<CardContentProps> = ({ type }) => {
           <div className={cls.card_title}>{name}</div>
         )}
 
-        {isCardProps(cardData) && (
+        {isCardProps(cardData) && type === 'normal' && (
           <div className={cls.card_image}>
             <img src={cardData.image} alt="" />
           </div>
