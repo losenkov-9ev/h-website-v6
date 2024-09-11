@@ -1,0 +1,22 @@
+@import '../../app/styles/variables.scss';
+
+.depositCard {
+  padding: 16px 24px;
+  border-radius: 16px;
+  background: var(--d-gradient);
+  border: 2px solid var(--select-border);
+
+  &_currency {
+    color: $grey-300;
+    margin-bottom: 4px;
+  }
+  &_value {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 24px;
+  }
+  &_date {
+    color: $grey-300;
+  }
+}

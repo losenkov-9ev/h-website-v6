@@ -1,0 +1,39 @@
+@import '../../app/styles/variables.scss';
+
+.accountDepositHistory {
+  margin-bottom: 160px;
+  &_title {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  &_box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  @media (max-width: $screen-xl) {
+    &_box {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (max-width: $screen-m) {
+    &_box {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: $screen-s) {
+    margin-bottom: 80px;
+
+    &_title {
+      margin-bottom: 24px;
+    }
+
+    &_box {
+      margin-bottom: 32px;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 16px;
+    }
+  }
+}

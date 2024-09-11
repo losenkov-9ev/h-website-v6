@@ -1,0 +1,895 @@
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-Regular.eot');
+  src:
+    local('RF Dewi Condensed Regular'),
+    local('RFDewiCondensed-Regular'),
+    url('../fonts/RFDewiCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-Regular.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-Regular.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-Black.eot');
+  src:
+    local('RF Dewi Expanded Black'),
+    local('RFDewiExpanded-Black'),
+    url('../fonts/RFDewiExpanded-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-Black.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-Black.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-Ultralight.eot');
+  src:
+    local('RF Dewi Ultralight'),
+    local('RFDewi-Ultralight'),
+    url('../fonts/RFDewi-Ultralight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-Ultralight.woff2') format('woff2'),
+    url('../fonts/RFDewi-Ultralight.woff') format('woff'),
+    url('../fonts/RFDewi-Ultralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-Ultrabold.eot');
+  src:
+    local('RF Dewi Ultrabold'),
+    local('RFDewi-Ultrabold'),
+    url('../fonts/RFDewi-Ultrabold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-Ultrabold.woff2') format('woff2'),
+    url('../fonts/RFDewi-Ultrabold.woff') format('woff'),
+    url('../fonts/RFDewi-Ultrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-Black.eot');
+  src:
+    local('RF Dewi Black'),
+    local('RFDewi-Black'),
+    url('../fonts/RFDewi-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-Black.woff2') format('woff2'),
+    url('../fonts/RFDewi-Black.woff') format('woff'),
+    url('../fonts/RFDewi-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-Ultrabold.eot');
+  src:
+    local('RF Dewi Condensed Ultrabold'),
+    local('RFDewiCondensed-Ultrabold'),
+    url('../fonts/RFDewiCondensed-Ultrabold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-Ultrabold.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-Ultrabold.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-Ultrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-Ultrabold.eot');
+  src:
+    local('RF Dewi Expanded Ultrabold'),
+    local('RFDewiExpanded-Ultrabold'),
+    url('../fonts/RFDewiExpanded-Ultrabold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-Ultrabold.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-Ultrabold.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-Ultrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-LightItalic.eot');
+  src:
+    local('RF Dewi Light Italic'),
+    local('RFDewi-LightItalic'),
+    url('../fonts/RFDewi-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-LightItalic.woff2') format('woff2'),
+    url('../fonts/RFDewi-LightItalic.woff') format('woff'),
+    url('../fonts/RFDewi-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-Regular.eot');
+  src:
+    local('RF Dewi Regular'),
+    local('RFDewi-Regular'),
+    url('../fonts/RFDewi-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-Regular.woff2') format('woff2'),
+    url('../fonts/RFDewi-Regular.woff') format('woff'),
+    url('../fonts/RFDewi-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-Bold.eot');
+  src:
+    local('RF Dewi Extended Bold'),
+    local('RFDewiExtended-Bold'),
+    url('../fonts/RFDewiExtended-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-Bold.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-Bold.woff') format('woff'),
+    url('../fonts/RFDewiExtended-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-Semibold.eot');
+  src:
+    local('RF Dewi Semibold'),
+    local('RFDewi-Semibold'),
+    url('../fonts/RFDewi-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-Semibold.woff2') format('woff2'),
+    url('../fonts/RFDewi-Semibold.woff') format('woff'),
+    url('../fonts/RFDewi-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-BlackItalic.eot');
+  src:
+    local('RF Dewi Expanded Black Italic'),
+    local('RFDewiExpanded-BlackItalic'),
+    url('../fonts/RFDewiExpanded-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-BlackItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-BlackItalic.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-ThinItalic.eot');
+  src:
+    local('RF Dewi Condensed Thin Italic'),
+    local('RFDewiCondensed-ThinItalic'),
+    url('../fonts/RFDewiCondensed-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-ThinItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-ThinItalic.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-Light.eot');
+  src:
+    local('RF Dewi Extended Light'),
+    local('RFDewiExtended-Light'),
+    url('../fonts/RFDewiExtended-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-Light.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-Light.woff') format('woff'),
+    url('../fonts/RFDewiExtended-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-Black.eot');
+  src:
+    local('RF Dewi Extended Black'),
+    local('RFDewiExtended-Black'),
+    url('../fonts/RFDewiExtended-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-Black.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-Black.woff') format('woff'),
+    url('../fonts/RFDewiExtended-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-Regular.eot');
+  src:
+    local('RF Dewi Extended Regular'),
+    local('RFDewiExtended-Regular'),
+    url('../fonts/RFDewiExtended-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-Regular.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-Regular.woff') format('woff'),
+    url('../fonts/RFDewiExtended-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-Bold.eot');
+  src:
+    local('RF Dewi Bold'),
+    local('RFDewi-Bold'),
+    url('../fonts/RFDewi-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-Bold.woff2') format('woff2'),
+    url('../fonts/RFDewi-Bold.woff') format('woff'),
+    url('../fonts/RFDewi-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-Semibold.eot');
+  src:
+    local('RF Dewi Condensed Semibold'),
+    local('RFDewiCondensed-Semibold'),
+    url('../fonts/RFDewiCondensed-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-Semibold.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-Semibold.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-Black.eot');
+  src:
+    local('RF Dewi Condensed Black'),
+    local('RFDewiCondensed-Black'),
+    url('../fonts/RFDewiCondensed-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-Black.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-Black.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-UltralightItalic.eot');
+  src:
+    local('RF Dewi Ultralight Italic'),
+    local('RFDewi-UltralightItalic'),
+    url('../fonts/RFDewi-UltralightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-UltralightItalic.woff2') format('woff2'),
+    url('../fonts/RFDewi-UltralightItalic.woff') format('woff'),
+    url('../fonts/RFDewi-UltralightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-UltralightItalic.eot');
+  src:
+    local('RF Dewi Extended Ultralight Italic'),
+    local('RFDewiExtended-UltralightItalic'),
+    url('../fonts/RFDewiExtended-UltralightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-UltralightItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-UltralightItalic.woff') format('woff'),
+    url('../fonts/RFDewiExtended-UltralightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-UltraboldItalic.eot');
+  src:
+    local('RF Dewi Extended Ultrabold Italic'),
+    local('RFDewiExtended-UltraboldItalic'),
+    url('../fonts/RFDewiExtended-UltraboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-UltraboldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-UltraboldItalic.woff') format('woff'),
+    url('../fonts/RFDewiExtended-UltraboldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-UltralightItalic.eot');
+  src:
+    local('RF Dewi Expanded Ultralight Italic'),
+    local('RFDewiExpanded-UltralightItalic'),
+    url('../fonts/RFDewiExpanded-UltralightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-UltralightItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-UltralightItalic.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-UltralightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-UltraboldItalic.eot');
+  src:
+    local('RF Dewi Condensed Ultrabold Italic'),
+    local('RFDewiCondensed-UltraboldItalic'),
+    url('../fonts/RFDewiCondensed-UltraboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-UltraboldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-UltraboldItalic.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-UltraboldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-Italic.eot');
+  src:
+    local('RF Dewi Extended Italic'),
+    local('RFDewiExtended-Italic'),
+    url('../fonts/RFDewiExtended-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-Italic.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-Italic.woff') format('woff'),
+    url('../fonts/RFDewiExtended-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-Ultrabold.eot');
+  src:
+    local('RF Dewi Extended Ultrabold'),
+    local('RFDewiExtended-Ultrabold'),
+    url('../fonts/RFDewiExtended-Ultrabold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-Ultrabold.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-Ultrabold.woff') format('woff'),
+    url('../fonts/RFDewiExtended-Ultrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-LightItalic.eot');
+  src:
+    local('RF Dewi Extended Light Italic'),
+    local('RFDewiExtended-LightItalic'),
+    url('../fonts/RFDewiExtended-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-LightItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-LightItalic.woff') format('woff'),
+    url('../fonts/RFDewiExtended-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-Thin.eot');
+  src:
+    local('RF Dewi Extended Thin'),
+    local('RFDewiExtended-Thin'),
+    url('../fonts/RFDewiExtended-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-Thin.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-Thin.woff') format('woff'),
+    url('../fonts/RFDewiExtended-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-Thin.eot');
+  src:
+    local('RF Dewi Condensed Thin'),
+    local('RFDewiCondensed-Thin'),
+    url('../fonts/RFDewiCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-Thin.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-Thin.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-BoldItalic.eot');
+  src:
+    local('RF Dewi Expanded Bold Italic'),
+    local('RFDewiExpanded-BoldItalic'),
+    url('../fonts/RFDewiExpanded-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-BoldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-BoldItalic.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-Semibold.eot');
+  src:
+    local('RF Dewi Extended Semibold'),
+    local('RFDewiExtended-Semibold'),
+    url('../fonts/RFDewiExtended-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-Semibold.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-Semibold.woff') format('woff'),
+    url('../fonts/RFDewiExtended-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-Regular.eot');
+  src:
+    local('RF Dewi Expanded Regular'),
+    local('RFDewiExpanded-Regular'),
+    url('../fonts/RFDewiExpanded-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-Regular.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-Regular.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-Ultralight.eot');
+  src:
+    local('RF Dewi Condensed Ultralight'),
+    local('RFDewiCondensed-Ultralight'),
+    url('../fonts/RFDewiCondensed-Ultralight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-Ultralight.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-Ultralight.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-Ultralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-SemiboldItalic.eot');
+  src:
+    local('RF Dewi Extended Semibold Italic'),
+    local('RFDewiExtended-SemiboldItalic'),
+    url('../fonts/RFDewiExtended-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-SemiboldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-SemiboldItalic.woff') format('woff'),
+    url('../fonts/RFDewiExtended-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-BlackItalic.eot');
+  src:
+    local('RF Dewi Condensed Black Italic'),
+    local('RFDewiCondensed-BlackItalic'),
+    url('../fonts/RFDewiCondensed-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-BlackItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-BlackItalic.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-BoldItalic.eot');
+  src:
+    local('RF Dewi Bold Italic'),
+    local('RFDewi-BoldItalic'),
+    url('../fonts/RFDewi-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-BoldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewi-BoldItalic.woff') format('woff'),
+    url('../fonts/RFDewi-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-UltraboldItalic.eot');
+  src:
+    local('RF Dewi Expanded Ultrabold Italic'),
+    local('RFDewiExpanded-UltraboldItalic'),
+    url('../fonts/RFDewiExpanded-UltraboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-UltraboldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-UltraboldItalic.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-UltraboldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-Thin.eot');
+  src:
+    local('RF Dewi Expanded Thin'),
+    local('RFDewiExpanded-Thin'),
+    url('../fonts/RFDewiExpanded-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-Thin.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-Thin.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-Semibold.eot');
+  src:
+    local('RF Dewi Expanded Semibold'),
+    local('RFDewiExpanded-Semibold'),
+    url('../fonts/RFDewiExpanded-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-Semibold.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-Semibold.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-UltralightItalic.eot');
+  src:
+    local('RF Dewi Condensed Ultralight Italic'),
+    local('RFDewiCondensed-UltralightItalic'),
+    url('../fonts/RFDewiCondensed-UltralightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-UltralightItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-UltralightItalic.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-UltralightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-LightItalic.eot');
+  src:
+    local('RF Dewi Expanded Light Italic'),
+    local('RFDewiExpanded-LightItalic'),
+    url('../fonts/RFDewiExpanded-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-LightItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-LightItalic.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-Bold.eot');
+  src:
+    local('RF Dewi Condensed Bold'),
+    local('RFDewiCondensed-Bold'),
+    url('../fonts/RFDewiCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-Bold.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-Bold.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-ThinItalic.eot');
+  src:
+    local('RF Dewi Expanded Thin Italic'),
+    local('RFDewiExpanded-ThinItalic'),
+    url('../fonts/RFDewiExpanded-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-ThinItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-ThinItalic.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-ThinItalic.eot');
+  src:
+    local('RF Dewi Thin Italic'),
+    local('RFDewi-ThinItalic'),
+    url('../fonts/RFDewi-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-ThinItalic.woff2') format('woff2'),
+    url('../fonts/RFDewi-ThinItalic.woff') format('woff'),
+    url('../fonts/RFDewi-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-Italic.eot');
+  src:
+    local('RF Dewi Condensed Italic'),
+    local('RFDewiCondensed-Italic'),
+    url('../fonts/RFDewiCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-Italic.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-Italic.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-UltraboldItalic.eot');
+  src:
+    local('RF Dewi Ultrabold Italic'),
+    local('RFDewi-UltraboldItalic'),
+    url('../fonts/RFDewi-UltraboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-UltraboldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewi-UltraboldItalic.woff') format('woff'),
+    url('../fonts/RFDewi-UltraboldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-Light.eot');
+  src:
+    local('RF Dewi Expanded Light'),
+    local('RFDewiExpanded-Light'),
+    url('../fonts/RFDewiExpanded-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-Light.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-Light.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-Italic.eot');
+  src:
+    local('RF Dewi Expanded Italic'),
+    local('RFDewiExpanded-Italic'),
+    url('../fonts/RFDewiExpanded-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-Italic.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-Italic.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-Light.eot');
+  src:
+    local('RF Dewi Light'),
+    local('RFDewi-Light'),
+    url('../fonts/RFDewi-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-Light.woff2') format('woff2'),
+    url('../fonts/RFDewi-Light.woff') format('woff'),
+    url('../fonts/RFDewi-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-SemiboldItalic.eot');
+  src:
+    local('RF Dewi Expanded Semibold Italic'),
+    local('RFDewiExpanded-SemiboldItalic'),
+    url('../fonts/RFDewiExpanded-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-SemiboldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-SemiboldItalic.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-BoldItalic.eot');
+  src:
+    local('RF Dewi Extended Bold Italic'),
+    local('RFDewiExtended-BoldItalic'),
+    url('../fonts/RFDewiExtended-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-BoldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-BoldItalic.woff') format('woff'),
+    url('../fonts/RFDewiExtended-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-Thin.eot');
+  src:
+    local('RF Dewi Thin'),
+    local('RFDewi-Thin'),
+    url('../fonts/RFDewi-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-Thin.woff2') format('woff2'),
+    url('../fonts/RFDewi-Thin.woff') format('woff'),
+    url('../fonts/RFDewi-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-BlackItalic.eot');
+  src:
+    local('RF Dewi Extended Black Italic'),
+    local('RFDewiExtended-BlackItalic'),
+    url('../fonts/RFDewiExtended-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-BlackItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-BlackItalic.woff') format('woff'),
+    url('../fonts/RFDewiExtended-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-Ultralight.eot');
+  src:
+    local('RF Dewi Expanded Ultralight'),
+    local('RFDewiExpanded-Ultralight'),
+    url('../fonts/RFDewiExpanded-Ultralight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-Ultralight.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-Ultralight.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-Ultralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-Light.eot');
+  src:
+    local('RF Dewi Condensed Light'),
+    local('RFDewiCondensed-Light'),
+    url('../fonts/RFDewiCondensed-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-Light.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-Light.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-Ultralight.eot');
+  src:
+    local('RF Dewi Extended Ultralight'),
+    local('RFDewiExtended-Ultralight'),
+    url('../fonts/RFDewiExtended-Ultralight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-Ultralight.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-Ultralight.woff') format('woff'),
+    url('../fonts/RFDewiExtended-Ultralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi Extended';
+  src: url('../fonts/RFDewiExtended-ThinItalic.eot');
+  src:
+    local('RF Dewi Extended Thin Italic'),
+    local('RFDewiExtended-ThinItalic'),
+    url('../fonts/RFDewiExtended-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExtended-ThinItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiExtended-ThinItalic.woff') format('woff'),
+    url('../fonts/RFDewiExtended-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src: url('../fonts/RFDewiExpanded-Bold.eot');
+  src:
+    local('RF Dewi Expanded Bold'),
+    local('RFDewiExpanded-Bold'),
+    url('../fonts/RFDewiExpanded-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiExpanded-Bold.woff2') format('woff2'),
+    url('../fonts/RFDewiExpanded-Bold.woff') format('woff'),
+    url('../fonts/RFDewiExpanded-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-Italic.eot');
+  src:
+    local('RF Dewi Italic'),
+    local('RFDewi-Italic'),
+    url('../fonts/RFDewi-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-Italic.woff2') format('woff2'),
+    url('../fonts/RFDewi-Italic.woff') format('woff'),
+    url('../fonts/RFDewi-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-SemiboldItalic.eot');
+  src:
+    local('RF Dewi Condensed Semibold Italic'),
+    local('RFDewiCondensed-SemiboldItalic'),
+    url('../fonts/RFDewiCondensed-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-SemiboldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-SemiboldItalic.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-LightItalic.eot');
+  src:
+    local('RF Dewi Condensed Light Italic'),
+    local('RFDewiCondensed-LightItalic'),
+    url('../fonts/RFDewiCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-LightItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-LightItalic.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi Condensed';
+  src: url('../fonts/RFDewiCondensed-BoldItalic.eot');
+  src:
+    local('RF Dewi Condensed Bold Italic'),
+    local('RFDewiCondensed-BoldItalic'),
+    url('../fonts/RFDewiCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewiCondensed-BoldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewiCondensed-BoldItalic.woff') format('woff'),
+    url('../fonts/RFDewiCondensed-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-BlackItalic.eot');
+  src:
+    local('RF Dewi Black Italic'),
+    local('RFDewi-BlackItalic'),
+    url('../fonts/RFDewi-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-BlackItalic.woff2') format('woff2'),
+    url('../fonts/RFDewi-BlackItalic.woff') format('woff'),
+    url('../fonts/RFDewi-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RF Dewi';
+  src: url('../fonts/RFDewi-SemiboldItalic.eot');
+  src:
+    local('RF Dewi Semibold Italic'),
+    local('RFDewi-SemiboldItalic'),
+    url('../fonts/RFDewi-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RFDewi-SemiboldItalic.woff2') format('woff2'),
+    url('../fonts/RFDewi-SemiboldItalic.woff') format('woff'),
+    url('../fonts/RFDewi-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}

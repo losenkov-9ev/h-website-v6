@@ -1,0 +1,22 @@
+@import '../../app/styles/variables.scss';
+
+.rateContainer {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.star {
+  transition: opacity 0.2s;
+
+  path {
+    fill: $accent-600;
+  }
+
+  &.filled {
+    opacity: 1;
+  }
+
+  &.notFilled {
+    opacity: 0.32;
+  }
+}

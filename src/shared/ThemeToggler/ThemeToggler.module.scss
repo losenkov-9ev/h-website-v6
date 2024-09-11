@@ -1,0 +1,13 @@
+@import '../../app/styles/variables.scss';
+
+.themeToggler {
+  min-width: 110px;
+  &_icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  @media (max-width: $screen-xxl) {
+    min-width: auto;
+  }
+}
